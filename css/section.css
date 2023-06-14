@@ -1,0 +1,42 @@
+.sections {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 50px;
+    justify-content: center;
+}
+
+.section__one {
+    background-color: green;
+    max-height: 100px;
+    transition: 1s;
+}
+
+.section__two {
+    background-color: green;
+    height: 100px;
+}
+
+.section__three {
+    background-color: green;
+    height: 100px;
+}
+
+.section__four {
+    background-color: green;
+    height: 100px;
+}
+
+.section__five {
+    background-color: green;
+    height: 100px;
+}
+
+.section__six {
+    background-color: green;
+    height: 100px;
+}
+
+.section__seven {
+    background-color: green;
+    height: 100px;
+}
