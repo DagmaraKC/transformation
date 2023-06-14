@@ -3,6 +3,7 @@
     grid-template-columns: repeat(3, 100px);
     grid-gap: 50px;
     justify-content: center;
+    margin: 20px;
 }
 
 .section__one {
@@ -11,32 +12,73 @@
     transition: 1s;
 }
 
+.section__one:hover {
+    background-color: hsl(120, 100%, 40%);
+}
+
 .section__two {
-    background-color: green;
+    background-color: lightseagreen;
     height: 100px;
+    transition: 4s;
+}
+
+.section__two:hover {
+    transform: scale(1.5);
+    background-color: blueviolet;
 }
 
 .section__three {
-    background-color: green;
+    background-color: blueviolet;
     height: 100px;
+    transition: 3s;
+}
+
+.section__three:hover {
+    transform: rotate(135deg);
+    background-color: royalblue;
 }
 
 .section__four {
-    background-color: green;
+    background-color: indigo;
     height: 100px;
+    transition: 3s;
+}
+
+.section__four:hover {
+    transform: translateX(50px);
+    background-color: violet;
 }
 
 .section__five {
-    background-color: green;
+    background-color: violet;
     height: 100px;
+    transition: 3s;
+}
+
+.section__five:hover {
+    transform: translate(50px) rotate(180deg);
+    background-color: fuchsia;
 }
 
 .section__six {
-    background-color: green;
+    background-color: fuchsia;
     height: 100px;
+    transition: 3s;
+}
+
+.section__six:hover {
+    transform: rotate(180deg);
+    transform-origin: bottom left;
+    background-color: violet;
 }
 
 .section__seven {
-    background-color: green;
+    background-color: gold;
     height: 100px;
+    transition: 6s;
+}
+
+.section__seven:hover {
+    transform: translate(300px) rotate(360deg) scale(2);
+    background-color: fuchsia;
 }
